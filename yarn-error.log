@@ -1,0 +1,57 @@
+Arguments: 
+  /Users/jiweiqing/.nvm/versions/node/v12.7.0/bin/node /usr/local/Cellar/yarn/1.16.0/libexec/bin/yarn.js
+
+PATH: 
+  /Users/jiweiqing/.nvm/versions/node/v12.7.0/bin:/usr/local/opt/icu4c/sbin:/usr/local/opt/icu4c/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/opt/icu4c/sbin:/usr/local/opt/icu4c/bin:/Users/apple/Library/Android/sdk/platform-tools:/Users/apple/Library/Android/sdk/tools:/Users/apple/Library/Android/sdk/platform-tools:/Users/apple/Library/Android/sdk/tools
+
+Yarn version: 
+  1.16.0
+
+Node version: 
+  12.7.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:60:26)
+
+npm manifest: 
+  {
+      "name": "vue-ts-cli",
+      "version": "0.1.0",
+      "private": true,
+      "scripts": {
+          "serve": "vue-cli-service serve",
+          "build": "vue-cli-service build",
+          "lint": "vue-cli-service lint"
+      },
+      "dependencies": {
+          "core-js": "^2.6.5",
+          "jj-browser-fn": "^2.0.2",
+          "nprogress": "^0.2.0",
+          "vue": "^2.6.10",
+          "vue-class-component": "^7.0.2",
+          "vue-property-decorator": "^8.1.0",
+          "vue-router": "^3.0.3",
+          "vuex": "^3.0.1"
+      },
+      "devDependencies": {
+          "@vue/cli-plugin-babel": "^3.7.0",
+          "@vue/cli-plugin-typescript": "^3.7.0",
+          "@vue/cli-service": "^3.7.0",
+          "less": "^2.7.3",
+          "less-loader": "^5.0.0",
+          "node-sass": "^4.9.0",
+          "sass-loader": "^7.1.0",
+          "typescript": "^3.4.3",
+          "vue-template-compiler": "^2.5.21"
+      }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
