@@ -20,7 +20,8 @@ Component.registerHooks([
     "beforeRouteUpdate"
 ]);
 window.countFn = {};
-window.countWs = new WebSocket("wss://" + window.location.hostname + ":3000");
+window.countWs = new WebSocket("wss://" + window.location.hostname + "/wss/");
+// window.countWs = new WebSocket("wss://jiweiqing.cn/wss/");
 window.countWs.onopen = () => {
     window.countWs.onmessage = evt => {
         // tslint:disable-next-line
